@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="slider">
+    <div class="slayt"><img src='img/tas.png' height=200px width=200px></div>
+    <div class="slayt"><img src='img/kagit.png' height=200px width=200px></div>
+    <div class="slayt"><img src='img/makas.png' height=200px width=200px></div>
+    
+    </div>
+    <span id="turn" class="spn"></span>
+    <!--HTML <span> etiketi, satır içi öğeler ve içerikler için  genel gruplandırma imkanı sunar.-->
+    <button type="button" class="btn"onclick="oyna()">OYNA</button>
+    <div>
+    <div><a href="#0"><img src='img/tas.png' id="0" height=200px width=200px class="kullanici1" onclick="selected(this.id)"></a></div>
+    <div><a href="#1"><img src='img/kagit.png' id="1" height=200px width=200px class="kullanici2" onclick="selected(this.id)"></a></div>
+    <div><a href="#2"><img src='img/makas.png' id="2" height=200px width=200px class="kullanici3" onclick="selected(this.id)"></a></div>
+    </div>
+           
+ <script type="text/javascript" src="tkm.js"></script>   
+</body>
+</html>
+
